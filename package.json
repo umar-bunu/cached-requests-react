@@ -1,0 +1,29 @@
+{
+  "name": "@githarita/cached-requests-react",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "description": "",
+  "files": [
+    "dist/",
+    "package.json",
+    "ReadMe.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.55",
+    "react": "^18.3.1",
+    "typescript": "^5.3.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "idb": "^8.0.0"
+  }
+}
